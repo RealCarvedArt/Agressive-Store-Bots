@@ -89,7 +89,7 @@ CVV = '123'  # Enter your CVV number here in quotes.
 #token = 'YOUR_API_TOKEN_HERE'  # Get your API Token here: https://www.pushbullet.com/#settings/account (Create Access Token)
 #pb = Pushbullet(token)  # See https://github.com/rbrcsk/pushbullet.py#readme for specific device settings.
 #device = pb.get_device('YOUR DEVICE NAME HERE')  # Get your device name here: https://www.pushbullet.com/#settings/devices
-#push = device.push_note("Best Buy Alert!", "This is the body")  # You can ustomize your alert (MESSAGE TITLE and MESSAGE BODY)
+#push = device.push_note("Best Buy Alert!", "Your Product Just Dropped!")  # You can ustomize your alert (MESSAGE TITLE and MESSAGE BODY)
 #push = device.push_link("Best Buy", url)  # You can customize your (URL TITLE and URL)
 
 # =========================================================================================================================
