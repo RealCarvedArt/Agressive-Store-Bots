@@ -35,7 +35,7 @@ Optional installs
 1. `pip install twilio`
 2. `pip install pushbullet.py`
 
-	![](images/step3.png)
+![](images/step3.png)
 
 **4. Right click bestbuybot folder, and create new python file.**
 ![](images/step4.png)
