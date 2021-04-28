@@ -34,7 +34,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 #   2. Credit Card CVV Number
 #   3. Twilio Account (Optional)
 
-# This Script only accepts Product URL's that look like the following examples. I hope you see the difference between page examples.
+# This Script only accepts Product URLs that look like the following examples. I hope you see the difference between page examples.
 
 # Example 1 - Nvidia RTX 3080:
 # https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440
