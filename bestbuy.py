@@ -51,8 +51,11 @@ from webdriver_manager.chrome import ChromeDriverManager
 # Highly Recommend To set up Twilio Account to receive text messages. So if bot doesn't work you'll at least get a phone
 # text message with the url link. You can click the link and try manually purchasing on your phone.
 
-# Twilio is free. Get it Here.
-# www.twilio.com/referral/BgLBXx
+# Twilio is free. Get it Here:
+# https://www.twilio.com/referral/BgLBXx
+
+# PushBullet is free. Get it Here:
+# https://www.pushbullet.com/
 
 # ======================================================= TEST LINKS ======================================================
 
