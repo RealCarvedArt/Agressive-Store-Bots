@@ -45,9 +45,11 @@ Optional installs
 
 **6. Fill out the script with your personal information.**
 
-	* Twilio Information(optional)
+	* Twilio Information (optional)
 
-	* CVV number
+	* PushBullet Information (Optional)
+
+	* CVV Number
 
 	* Add your Firefox profile. To find Firefox profile type "about:profiles" in firefox. It is the Root Directory path.
 ![](images/step6.png)
