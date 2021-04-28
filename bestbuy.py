@@ -76,7 +76,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 url = 'https://www.bestbuy.com/site/nvidia-geforce-rtx-3080-10gb-gddr6x-pci-express-4-0-graphics-card-titanium-and-black/6429440.p?skuId=6429440'
 
 ### 2. Credit Card CVV Number ###
-CVV = '123'  # Enter your CVV number here in quotes.
+CVV = '123'  # Enter your CVV number here in single quotes.
 
 ### 3. Twilio Account (uncomment to use) ###
 #toNumber = 'your_phonenumber'
