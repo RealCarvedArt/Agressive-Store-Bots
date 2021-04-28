@@ -30,7 +30,10 @@ If you guys need instructions to set up Newegg Bot or Amazon Bot go to my Google
 1. `pip install beautifulsoup4`
 2. `pip install selenium`
 3. `pip install webdriver-manager`
-4. `pip install twilio`
+
+Optional installs
+1. `pip install twilio`
+2. `pip install pushbullet.py`
 
 	![](images/step3.png)
 
@@ -53,3 +56,10 @@ If you guys need instructions to set up Newegg Bot or Amazon Bot go to my Google
 **7. To run bot, click run then select bestbuy.**
 
 ![](images/step7.png)
+
+## Troubleshooting
+If you receive errors related to packages or modules
+1. Go to: File → Settings → Project:bestbuybot → Python Interpreter
+2. Click the +
+3. Search for the packages
+4. Click Install Package
