@@ -62,3 +62,5 @@ If you guys need instructions to set up Newegg Bot or Amazon Bot go to my Google
 2. Click the +
 3. Search for the packages
 4. Click Install Package
+
+**NOTE: You only have 5-second intervals to login if you don't have your password saved in Chrome.**
