@@ -89,8 +89,6 @@ CVV = '123'  # Enter your CVV number here in single quotes.
 #token = 'YOUR_API_TOKEN_HERE'  # Get your API Token here: https://www.pushbullet.com/#settings/account (Create Access Token)
 #pb = Pushbullet(token)  # See https://github.com/rbrcsk/pushbullet.py#readme for specific device settings.
 #device = pb.get_device('YOUR DEVICE NAME HERE')  # Get your device name here: https://www.pushbullet.com/#settings/devices
-#push = device.push_note("Best Buy Alert!", "Your Product Just Dropped!")  # You can ustomize your alert (MESSAGE TITLE and MESSAGE BODY)
-#push = device.push_link("Best Buy", url)  # You can customize your (URL TITLE and URL)
 
 # =========================================================================================================================
 
@@ -172,11 +170,18 @@ def searching_for_card(driver):
                 except (NoSuchElementException, TimeoutException) as error:
                     print(f'Queue System Error: ${error}')
 
-                # Sending Text Message To let you know you are in the queue system.
+                # Sending Twilio Message To let you know you are in the queue system.
                 try:
                     client.messages.create(to=toNumber, from_=fromNumber,
-                                           body=f'Your In Queue System on Bestbuy! {url}')
+                                           body=f'Your In the Best Buy Queue System! {url}')
                 except (NameError, TwilioRestException):
+                    pass
+
+                # Sending PushBullet Message To let you know you are in the queue system.
+                try:
+                    pbbody = f'Your In the Best Buy Queue System! {url}'
+                    push = device.push_note("Best Buy Alert!", pbbody)
+                except (Exception, e):
                     pass
 
                 # In queue, just waiting for "add to cart" button to turn clickable again.
