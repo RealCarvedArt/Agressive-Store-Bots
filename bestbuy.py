@@ -3,8 +3,6 @@ import sys
 import time
 #from twilio.rest import Client
 #from twilio.base.exceptions import TwilioRestException
-#from twilio.rest import Client
-#from twilio.base.exceptions import TwilioRestException
 #from pushbullet import Pushbullet
 from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException, ElementNotInteractableException, TimeoutException, WebDriverException, ElementClickInterceptedException
