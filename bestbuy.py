@@ -181,7 +181,7 @@ def searching_for_card(driver):
                 try:
                     pbbody = f'Your In the Best Buy Queue System! {url}'
                     push = device.push_note("Best Buy Alert!", pbbody)
-                except (Exception, e):
+                except (NameError, Exception):
                     pass
 
                 # In queue, just waiting for "add to cart" button to turn clickable again.
