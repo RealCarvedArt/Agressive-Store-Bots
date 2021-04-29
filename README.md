@@ -51,9 +51,6 @@ If you guys need instructions to set up Newegg Bot or Amazon Bot go to my Google
 
 	* CVV Number
 
-	* Add your Firefox profile. To find Firefox profile type "about:profiles" in firefox. It is the Root Directory path.
-![](images/step6.png)
-
 
 **7. To run bot, click run then select bestbuy.**
 
